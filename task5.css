@@ -1,0 +1,92 @@
+#nav{
+    background-color:black;
+color: ghostwhite;
+        
+
+}
+.button{
+position:fixed;
+
+width:50px;
+height:4%;
+top:23%;
+right:710px;
+border-radius:10px;
+text-align:center;
+color: white;
+padding-left: 8px;
+
+}
+.button1{
+  position:fixed;
+  
+  width:50px;
+  height:5%;
+  top:23%;
+  right:600px;
+  border-radius:10px;
+  text-align:center;
+  color: white;
+  padding-left: 5px;
+  
+  }
+
+#text{
+    color: ghostwhite;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+ 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width:300px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 50%;
+  padding: 5px;
+  height: 20px;
+}
+
+
+
+.tab {
+  overflow: hidden;
+ 
+  background-color:white;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button.active {
+  
+   border-bottom: 2px solid orangered;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border:white;
+  border-top: none;
+}
+
+
